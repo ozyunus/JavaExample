@@ -20,6 +20,7 @@ public class Lab6_2 {
 			System.out.println(j);
 			//System.out.println(Arrays.toString(numberArrays));
 			//inputScanner.close();
+		inputScanner.close();
 	}
 
 }
