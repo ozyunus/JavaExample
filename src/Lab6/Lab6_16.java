@@ -10,14 +10,17 @@ public class Lab6_16 {
 		
 		for (int i=0; i<myArray.length; i++) {
 			for (int j=0; j<i; j++) {
-				if(myArray[i]==myArray[j]) {
+				if(myArray[i]!=myArray[j]) {
 					count++;
-					System.out.print(myArray[i]+" ");
 				}
+				
+			}if(count==0) {
+				System.out.print(myArray[i]);
 			}
+
 		}
-		if(count==0) {
-			System.out.println("Tekrar eden sayı yok");
-		}
+		
 	}
 }
+
+// yeni bir dizi oluşturmadan sadece 1 tane denk gelince yazdırabiliyorum. Beraber bakalım.
