@@ -1,26 +1,22 @@
 package Lab6;
-
-import java.util.Arrays;
-
 public class Lab6_16 {
 
 	public static void main(String[] args) {
-		int[] myArray = {2, 4, 1, 9, 343, 6, 1, 7, 8, 9};
-		int count=0;
-		
-		for (int i=0; i<myArray.length; i++) {
-			for (int j=0; j<i; j++) {
-				if(myArray[i]!=myArray[j]) {
-					count++;
-				}
-				
-			}if(count==0) {
-				System.out.print(myArray[i]);
-			}
-
-		}
-		
+        int[] dizi = {1, 2, -1, 2, 6, 7, 908, 9, 3, 4, 10};
+        for (int i = 0; i < dizi.length; i++) {
+            int eleman = dizi[i];
+            boolean tekrarEdiyor = false;
+            
+            for (int j = 0; j < dizi.length; j++) {
+                if (i != j && eleman == dizi[j]) {
+                    tekrarEdiyor = true;
+                    break;
+                }
+            }
+            if (!tekrarEdiyor) {
+                System.out.print(eleman+" ");
+            }
+        }
 	}
 }
 
-// yeni bir dizi oluşturmadan sadece 1 tane denk gelince yazdırabiliyorum. Beraber bakalım.
