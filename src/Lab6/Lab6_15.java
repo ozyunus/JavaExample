@@ -23,4 +23,3 @@ public class Lab6_15 {
 
 }
 
-// normalde bu haliyle 3 ü de göstermesini bekliyordum ama göstermiyor. Arraydaki indeke ait sayı kadar dönmüyor lengtih kadar dönüyor bakalım
