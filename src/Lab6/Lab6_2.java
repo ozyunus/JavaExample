@@ -23,5 +23,3 @@ public class Lab6_2 {
 	}
 
 }
-
-// tekte de yazdırabilir miyim? 
