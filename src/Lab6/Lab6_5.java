@@ -7,7 +7,10 @@ public class Lab6_5 {
 		int count = 0;
 		
 		for (int i=0; i<myArray.length; i++) {
-			if (myArray[i]<9 && myArray[i]>-9) {
+			if (myArray[i]%2==0) {
+				
+			}
+			else {
 				count++;
 			}
 		}
@@ -15,4 +18,3 @@ public class Lab6_5 {
 	}
 }
 
-// böyle bi yöntem aklıma geldi ama tek sayıyı anlamak için daha mantıklı bir yol olabilir miydi? 
