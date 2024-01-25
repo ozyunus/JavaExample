@@ -16,7 +16,7 @@ public class Lab6_2 {
 		}
 		
 		for (int j = numberArrays.length-1; j>=0; j--)
-			System.out.println(j);
+			System.out.print(numberArrays[j]+" ");
 			//System.out.println(Arrays.toString(numberArrays));
 			//inputScanner.close();
 		inputScanner.close();
