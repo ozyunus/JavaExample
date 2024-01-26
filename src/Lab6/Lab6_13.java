@@ -23,4 +23,3 @@ public class Lab6_13 {
 
 }
 
-// *** o ve 1 inci indekse bak hangisi büyükse ona göre atama yap
