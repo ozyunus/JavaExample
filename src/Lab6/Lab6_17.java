@@ -3,7 +3,7 @@ package Lab6;
 public class Lab6_17 {
 
 	public static void main(String[] args) {
-			int[] myArray = {2, 4, 1, -9, 343, 6, 1, 7, 8, 9};
+			int[] myArray = {2, 4, 1, 9, 2, 6, 1, 7, 8, 9};
 			int count=0;
 			
 			for (int i=0; i<myArray.length; i++) {
