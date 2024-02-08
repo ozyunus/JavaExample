@@ -27,4 +27,3 @@ public class Lab6_22 {
 	}
 }
 
-// sıfıra nasıl yakın yapacağımı kestiremedim. O dan küçük yapınca da negatifleri çekiyor.
