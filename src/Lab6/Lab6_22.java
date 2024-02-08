@@ -3,28 +3,28 @@ package Lab6;
 public class Lab6_22 {
 
 	public static void main(String[] args) {
-		int [] myArrray1 = {-4, 0, 6, 4, 77, 90, 06, 5};
-		int [] myArrray2 = {4, 2, 10, 16, 43, 7, 9, 6, -5};
-		int sifiraYakin=55;
-		int firsNumber=0;
-		int secondNumber=0;
+		int [] myArrray1 = {4, 0, 6, 4, 77, 90, 6};
+		int sifiraYakin=myArrray1[0]+myArrray1[1];
+		int firsindex=0;
+		int secondindex=1;
+		
 		
 		for (int i=0; i<myArrray1.length; i++) {
-			for (int j=0; j<myArrray2.length; j++) {
-				if (myArrray1[i]+myArrray2[j]<0) {
-					sifiraYakin = myArrray1[i]+myArrray2[j];
-					firsNumber = myArrray1[i];
-					secondNumber = myArrray2[j];
+			for (int j=i+1; j<myArrray1.length; j++) {
+				int araToplam = myArrray1[i]+myArrray1[j];
+				if (araToplam<0) {
+					araToplam *=-1;
 				}
-
+				if(araToplam<sifiraYakin) {
+					sifiraYakin=araToplam;
+					firsindex=i;
+					secondindex=j;
+				}
+				
 			}					
-
 		}
-		System.out.println("Beklenen çıktı: "+firsNumber+" ve "+secondNumber);
-
-
+		System.out.println("Beklenen çıktı: "+myArrray1[firsindex]+" ve "+myArrray1[secondindex]);
 	}
-
 }
 
 // sıfıra nasıl yakın yapacağımı kestiremedim. O dan küçük yapınca da negatifleri çekiyor.
