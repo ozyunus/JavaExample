@@ -1,7 +1,5 @@
 package Lab6;
 
-import java.util.Iterator;
-
 public class Lab6_Matris_3 {
 
 	public static void main(String[] args) {
@@ -21,7 +19,6 @@ public class Lab6_Matris_3 {
 			}
 		}
 		System.out.println(total);
-
 	}
 
 }
