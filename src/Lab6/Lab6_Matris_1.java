@@ -31,6 +31,7 @@ public class Lab6_Matris_1 {
 			}
 			System.out.println();
 		}
+		inputScanner.close();
 	}
 
 }
