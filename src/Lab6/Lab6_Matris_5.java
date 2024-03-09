@@ -1,7 +1,5 @@
 package Lab6;
 
-import java.util.Iterator;
-
 public class Lab6_Matris_5 {
 
 	public static void main(String[] args) {
