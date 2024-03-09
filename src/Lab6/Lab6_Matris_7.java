@@ -6,18 +6,21 @@ public class Lab6_Matris_7 {
 		int satirSayisi=0;
 		
 		int[][] table = new int[][] {
-			{3,4,0,9,0},
-			{4,5,3,2,7}
+			{3,4,9,9,8},
+			{4,7,3,2,7},
+			{4,0,0,2,0}
 		};
 		
 		for (int i= 0; i<table.length; i++) {
 			for (int j=0; j<table[i].length; j++) {
 				if(table[i][j]==0) {
-					satirSayisi = table[i][j];
+					satirSayisi++;
+					break;
+					
 				}
 			}
 		}
-		System.out.println(satirSayisi+ " satırı sıfır sonuç verir");
+		System.out.println(satirSayisi+ " adet satır sıfır sonuç verir");
 	}
 
 }
