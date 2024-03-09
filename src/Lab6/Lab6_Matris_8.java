@@ -27,6 +27,8 @@ public class Lab6_Matris_8 {
 			System.out.println();
 
 		}
+		inputScanner.close();
 	}
+
 
 }
