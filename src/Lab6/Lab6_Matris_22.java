@@ -7,12 +7,13 @@ public class Lab6_Matris_22 {
 		int number2=0;
 		int count = 0;
 		int[][] table = {
-				{1,9,6,8},
+				{1,29,6,8},
 				{29,8,4,9},
 				{6,4,5,4},
 				{8,9,4,7}
 				
 		};
+
 		for (int i=0; i<table.length; i++) {
 			for (int j=0; j<table[i].length; j++) {
 				number1=table[i][j];
@@ -29,7 +30,6 @@ public class Lab6_Matris_22 {
 		else {
 			System.out.println("değil");
 		}
-		
 		
 		/*
 		if (count==table[0].length*table.length){
