@@ -7,10 +7,11 @@ public class Lab6_Matris_24 {
 		int bigNumber = 0;
 		int row = 0;
 
-		int[][] table = { { 1, 2, 1000 }, { 40000, 5, 16, 8 }, { 5, 690090, 7, 8, 99 } };
+		int[][] table = { { 1, 2, 1000 }, { 4, 5, 16, 8 }, { 5, 6, 7, 8, 99 } };
 		for (int i = 0; i < table.length; i++) {
 			total += table[0][i];
 			bigNumber = total;
+		
 		
 		}
 		total = 0;
