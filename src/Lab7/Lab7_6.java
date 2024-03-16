@@ -21,7 +21,6 @@ public class Lab7_6 {
 		else {
 			result = 1;
 		}
-
 		return result;
 	}
 
