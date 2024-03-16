@@ -17,6 +17,8 @@ public class Lab7_1 {
 		int number3 = inputScanner.nextInt();
 		
 		avarage(number1, number2, number3);
+		
+		inputScanner.close();
 
 }
 	public static void avarage(int num1, int num2, int num3) {
@@ -24,5 +26,6 @@ public class Lab7_1 {
 		double avarage = total /3;
 		
 		System.out.println("Ortalama: "+avarage);
+		
 	}
 }
