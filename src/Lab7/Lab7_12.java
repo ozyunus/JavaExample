@@ -18,7 +18,6 @@ public class Lab7_12 {
 				max = arrays[i];
 			}
 		}
-		
 		return max;
 	}
 
