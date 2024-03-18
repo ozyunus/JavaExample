@@ -6,11 +6,12 @@ public class Lab7_7 {
 		int[] table = {3,5,7,9,11};
 		int diziBoyutu = table.length;
 		
-		avarage(diziBoyutu, table);
+		int ortalama= avarage(diziBoyutu, table); 
+		System.out.println(ortalama);
 		
 	}
-	public static void avarage(int arrayLenght, int[]table) {
-		int avarage =0;
+	public static int avarage(int arrayLenght, int[]table) {
+		int avarageNum =0;
 		int total=0;
 		int count =0;
 		
@@ -19,8 +20,8 @@ public class Lab7_7 {
 			count++;
 		}
 		if (count==arrayLenght) {
-			avarage = total/count;
+			avarageNum = total/count;
 		}
-		System.out.println("Avarage : "+avarage);
+		return avarageNum;
 	}
 }
