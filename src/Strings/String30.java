@@ -5,16 +5,20 @@ import javax.sound.midi.Soundbank;
 public class String30 {
 
 	public static void main(String[] args) {
-		String[] words1 = {"insan","ekmek","su","toprak"};
-		String[] words2 = {"hayat","dağ","hava","su"};
+		char newWord=' ';
+		String word1 = "insan";
+		String word2 = "hayat";
 		
-		for(int i=0; i<words1.length; i++) {
-			for(int j=0; j<words2.length; j++) {
-				if(words1[i]==words2[j]){
-					System.out.println(words1[i]+" kelimei "+i+".indekste bulunmaktadır.");
-				}
+		for(int i=0; i<word1.length(); i++) {
+			newWord= word1.charAt(i);
+			int donen = (word2.indexOf(newWord));
+			if (donen>0) {
+				System.out.println("İndeksi :"+i);
+				System.out.println(newWord);
 			}
+
 		}
+
 		
 	}
 
