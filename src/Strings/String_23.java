@@ -15,7 +15,6 @@ public class String_23 {
 					bigWord = word;
 				}
 			}
-
 		}
 		System.out.println("En büyük yazı: "+bigWord);
 
