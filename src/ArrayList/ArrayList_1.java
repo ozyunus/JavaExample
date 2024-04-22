@@ -21,10 +21,6 @@ public class ArrayList_1 {
 		for(String inputEleman: elemanlar) {
 			System.out.println(inputEleman);
 		}
-		
-		
-		
-				
 	}
 
 }
